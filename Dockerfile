@@ -1,3 +1,3 @@
 FROM openjdk:11
-COPY target/Product_Management_Backend.jar /app.jar
+COPY target/Product_Management_Backend-0.0.1-SNAPSHOT.jar /app.jar
 CMD ["java", "-jar", "/app.jar"]
