@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.hasni.model.Product;
 import com.hasni.service.ProductService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 public class ProductController {
 
